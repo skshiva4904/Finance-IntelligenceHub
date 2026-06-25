@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Generated pipeline outputs
+/Bronze/
+/bronze/
+/Silver/
+/silver/
+/Gold/
+/gold/
+/dq/
+/logs/
+
+# Raw or private source data
+/Data/
+/data/
+*.xlsx
+
+# Ignore every PBIX except the final portfolio report
+*.pbix
+!Report/Manufacturing_Finance_Intelligence_Hub.pbix
+
+# Editors, operating systems, archives
+.vscode/
+.DS_Store
+Thumbs.db
+*.zip
